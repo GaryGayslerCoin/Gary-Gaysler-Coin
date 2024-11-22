@@ -42,11 +42,15 @@
         .side-image {
             flex: 1;
             min-width: 30%;
-            text-align: center;
+            display: flex;
+            align-items: center; /* Aligns the image vertically */
+            justify-content: center; /* Centers it horizontally */
         }
         .side-image img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
+            margin: auto 0; /* Centers vertically */
+            padding-top: 20px; /* Fine-tunes vertical alignment */
         }
         .button {
             display: inline-block;
