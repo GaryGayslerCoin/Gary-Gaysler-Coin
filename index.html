@@ -17,6 +17,7 @@
             color: white;
             text-align: center;
             padding: 20px;
+            position: relative;
         }
         header img {
             max-width: 100%;
@@ -24,8 +25,25 @@
             display: block;
             margin: 0 auto;
         }
+        header .subtle-text {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.7); /* Slightly transparent */
+            margin-top: -10px;
+        }
         .container {
             padding: 20px;
+            display: flex;
+        }
+        .main-content {
+            flex: 3;
+        }
+        .side-image {
+            flex: 1;
+            text-align: center;
+        }
+        .side-image img {
+            width: 100%;
+            height: auto;
         }
         .button {
             display: inline-block;
@@ -34,7 +52,7 @@
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            margin: 10px 0;
+            margin: 10px 5px;
         }
         footer {
             background-color: #333;
@@ -49,27 +67,24 @@
     <header>
         <img src="images/GenslerBannerSmal.png" alt="Gary Gensler Banner">
         <h1>Gary Gaysler Coin ($GGC)</h1>
+        <p class="subtle-text">gary gay cunt</p>
         <p>From SEC Chair to Meme Coin Moon 🌕</p>
     </header>
     <div class="container">
-        <h2>About $GGC</h2>
-        <p>$GGC is a meme coin created to celebrate Gary Gensler's journey... to the moon!</p>
-        <h2>How to Buy</h2>
-        <ol>
-            <li>Head over to Pump.fun</li>
-            <li>Spend your entire SOL balance.</li>
-            <li>Buy $GGC on Pump.fun</li>
-        </ol>
-        <h2>Roadmap</h2>
-        <ul>
-            <li>Phase 1: pump.fun Domination 🐶</li>
-            <li>Phase 2: Gaysler Goes to DEX 🌍</li>
-            <li>Phase 3: Moon Party 🚀</li>
-        </ul>
-        <a href="#" class="button">Buy Now</a>
-    </div>
-    <footer>
-        <p>© 2024 Gary Gaysler Coin | All Rights Reserved</p>
-    </footer>
-</body>
-</html>
+        <div class="main-content">
+            <h2>About $GGC</h2>
+            <p>$GGC is a meme coin created to celebrate Gary Gensler's journey... to the moon!</p>
+            <h2>How to Buy</h2>
+            <ol>
+                <li>Head over to Pump.fun</li>
+                <li>Spend your entire SOL balance.</li>
+                <li>Buy $GGC on Pump.fun</li>
+            </ol>
+            <h2>Roadmap</h2>
+            <ul>
+                <li>Phase 1: pump.fun Domination 🐶</li>
+                <li>Phase 2: Gaysler Goes to DEX 🌍</li>
+                <li>Phase 3: Moon Party 🚀</li>
+            </ul>
+            <a href="https://example.com/buy" class="button">Buy Now</a>
+            <a href="h
